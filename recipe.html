@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe page</title>
+</head>
+<script src="script.js"></script>
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="styles.css">
+<body>
+    <nav
+    class="navbar navbar-expand-lg navbar-light "
+    style="background-color: #ff914d;"
+  >
+   <a href="landing.html"><img src="Homecook (1).png" alt="logo" width="100px" height="100px" />
+   </a> 
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+              aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav" class="div_1">
+        <a class="nav-item nav-link" href="index.html">Home </a>
+        <a class="nav-item nav-link" href="recipe.html">Recipes</a>
+        <a class="nav-item nav-link" href="book.html">Recipe book</a>
+        <a class="nav-item nav-link" href="contact.html">Contact us</a>
+      </div>
+      </nav>
+      <br>
+      <div>
+        <p style="font-size:40px ;">Click the images to view the Recipes</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+           <a href="pasta.html"> <img src="marinara pasta.jpeg"  class="card-img-top" alt="pasta"></a>
+            <div class="card-body">
+              <h4 class="card-title">Marinara Pasta</h4>
+              <p class="card-text"></p>
+              <button style="background-color: #ff914d; border-radius: 10px;" onclick="changeTextandredirect()" id="rec">Save recipe</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+             <a href="pork.html"><img src="tasty pork ribs.jpeg" class="card-img-top" alt="pork" width="410px" height="410px" ></a>
+            <div class="card-body">
+              <h4 class="card-title">Pork Ribs</h4>
+              <p class="card-text"></p>
+              <button style="background-color: #ff914d; border-radius: 10px;" onclick="changeWordsandredirect()" id="rcp">Save recipe</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+           <a href="pumpkin.html"> <img src="pumkin soup.jpeg" class="card-img-top" alt="pumpkin"></a>
+            <div class="card-body">
+              <h5 class="card-title">Pumpkin Soup</h5>
+              <p class="card-text"></p>
+              <button style="background-color: #ff914d; border-radius: 10px;" onclick="changeWordandredirect()" id="pmk">Save recipe</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+           <a href="dumpling.html"> <img src="dumplings.jpeg" class="card-img-top" alt="dumplings" width="410px" height="410px"></a>
+            <div class="card-body">
+              <h4 class="card-title">Pork Dumplings</h4>
+              <p class="card-text"></p>
+              <button style="background-color: #ff914d; border-radius: 10px;" onclick="changeWordingandredirect()" id="dmp">Save recipe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+         <a href="sand.html"><img src="pexels-photo-1633525.jpeg" class="card-img-top" alt="Chicken cheese sandwitch" width="400px" height="400px"></a> 
+          <div class="card-body">
+            <h4 class="card-title" class="ttl">A Chicken Parmesan sandwitch</h4>
+            <p class="card-text"></p>
+            <button style="background-color: #ff914d; border-radius: 10px;" onclick="changeWordingsandredirect()" id="snd">Save recipe</button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="col">
+        <div class="card">
+         <a href="pan.html"> <img src="pexels-photo-376464.jpeg" class="card-img-top" alt="pancakes" width="400px" height="400px"></a> 
+          <div class="card-body">
+            <h4 class="card-title" class="ttl">Fluffy pancakes</h4>
+            <p class="card-text"></p>
+            <button style="background-color: #ff914d; border-radius: 10px;" onclick="changeWordngsandredirect()" id="pnk">Save recipe</button>
+          </div>
+        </div>
+      </div>
+     
+    
+    
+  
+  
+  
+  
+  
+  
+  
+          
+      
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    
+</body>
+</html>

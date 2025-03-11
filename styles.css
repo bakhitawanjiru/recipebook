@@ -1,0 +1,27 @@
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff6b6b 
+    
+}
+
+.body{
+    background-image:url('mexican.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.txt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+.saved {
+    background-color:lightgreen;
+    color: black;
+    transition: background-color 0.3s ease;
+}
